@@ -1,0 +1,30 @@
+{
+  "name": "metalsmith-multi-image-resizer",
+  "version": "1.0.0",
+  "description": "An image resizing plugin for Metalsmith that allows multiple sizes and is not dependent on imagemagick/graphicsmagick.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gaspard-Bruno/metalsmith-multi-image-resizer.git",
+    "baseUrl": "https://github.com/Gaspard-Bruno/metalsmith-multi-image-resizer"
+  },
+  "keywords": [
+    "metalsmith"
+  ],
+  "author": {
+    "name": "Gaspard+Bruno",
+    "email": "hello@gaspardbruno.com"
+  },
+  "license": "MIT",
+  "licenseFilename": "LICENSE",
+  "readmeFilename": "README.md",
+  "dependencies": {
+    "async": "^2.0.0-rc.2",
+    "debug": "^2.2.0",
+    "minimatch": "^3.0.0",
+    "sharp": "^0.15.1"
+  }
+}
